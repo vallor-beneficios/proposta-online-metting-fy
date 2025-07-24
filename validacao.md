@@ -144,19 +144,16 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 
 ### Entendimento Atual:
 
-#### 5.1 Consulta CEP
-- Preenchimento automático: Logradouro, Bairro, Cidade, Estado
-
-#### 5.2 Consulta CPF  
+#### 5.1 Consulta CPF  
 - Possibilidade de puxar nome completo
 - Validação do documento
 
-#### 5.3 Sistema de Email
+#### 5.2 Sistema de Email
 **Templates necessários:**
 - Notificação para Cliente (com token de acesso)
 - Notificação de Pendência para Vendedor
 
-#### 5.4 Geração de PDF Dinâmica
+#### 5.3 Geração de PDF Dinâmica
 - Campos preenchidos aparecem em **azul**
 - Texto fixo em **preto**
 - Marca d'água "RASCUNHO" no preview
