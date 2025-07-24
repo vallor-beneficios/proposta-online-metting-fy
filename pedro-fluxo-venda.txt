@@ -1,0 +1,452 @@
+0:00 - eric gomes
+juiz que falou, pô, vamos fazer a call agora pra você me mostrar o negócio, e cara, agora eu não posso. Tá aqui, Thiago, eu sei te mostrar. Vamos agora, nego? Agora não dá, cara. Tá doido pra ver o negócio, querem botar a gente no jogo, lá no Pará. Calma, cara, eu não vou te trair, você vai ajudar bastante, mas calma aí.
+
+0:16 - Thiago Ramos
+Tomara que hoje a gente consiga falar com o Vitor, né, cara?
+
+0:19 - eric gomes
+Porque eu já perdi a moral. Já cobrei o Thiago aqui também, Thiago. Precisamos disso pro Thiago, ó. Eu preciso receber com urgência. Vitor que eu mandei para ele que é o Vitor a planilha dos nossos é a receita de especies que eu montei para você igual você pediu. Beleza chegou aí que eu vou tomar lá. Fala pedro bom dia meu amigo. Bom dia tudo bem. Bom dia demais.
+
+0:48 - Thiago Ramos
+Como é que vocês estão.
+
+0:50 - eric gomes
+Tudo bem tudo Tem pouco que a gente não se fala, cara.
+
+0:54 - pedro mandella
+Nó, gente, é mesmo.
+
+0:55 - eric gomes
+É, mas agora você vai voltar a falar demais com a gente semana que vem nas noite também, viu?
+
+1:01 - pedro mandella
+Pois é, agora você come pão de queijo em outro lugar, né?
+
+1:05 - eric gomes
+Thiago, eu encontrei com o pedro, a Bárbara, a gente tinha almoçado no shopping um dia, encontrei com o pedro.
+
+1:11 - pedro mandella
+Não, eu digo um lugar aí que você postou que tinha oferecido pão de queijo com café, que eu falei assim, olha esse eric que tá comendo de outro lugar.
+
+1:21 - eric gomes
+Ah, foi com o doutor Lucas! Lá no ABS segue, ô pedro! Foi lá, ué!
+
+1:25 - Thiago Ramos
+Ah, não, lá no vizinho! Na ABS pode ser!
+
+1:28 - pedro mandella
+É parceria! Pois é, eu lembro do que você falou!
+
+1:32 - eric gomes
+Ô pedro, mas a ideia então, cara, que eu conversei com o Fábio, ele falou até para o Sierra, que eu mostrei para vocês algumas vezes, pedro também, mas vamos mostrar de novo para a gente aliar, porque agora, como a gente já tem a primeira fase os cadastros que são bem requisitos pra gente realmente chegar nesse fluxo, né? Eu acho que a ideia é você mostrar o fluxo aí da Plânica, a gente vai tentar abstrair ele, a gente que eu falo, não só eu, Thiago, mas você e o Fábio também, principalmente vocês dois que conhecem o negócio e a jornada da venda, e a gente tentar abstrair e tentar formular um fluxo o melhor possível, mais simples, que atenda vocês inicialmente, é o valor, e traga o que vocês têm de melhor, de conhecimento, para a gente montar o fixo junto, né? A ideia é o que eu vejo assim, você vê diferente?
+
+2:31 - pedro mandella
+Eu acho que é por aí. É, na verdade é assim, eu não sei exatamente, como é que eu vou dizer assim, Eu não sei exatamente as etapas que a gente vai seguir, porque eu não sei... Vocês aqui vão me dizer, né? Eu não sei os próximos passos que a gente vai dar, exatamente dentro do sistema falando. Eu vou mostrar para vocês, mas eu não sei, numa questão de desenvolvimento, por onde vocês vão começar primeiro, entende? Tranquilo.
+
+3:03 - Thiago Ramos
+Eu vou colocar uma coisa aqui, que acho que isso aí é primordial para essa fase, que é o acesso externo. Não é isso? Porque agora a gente vem com o papel do vendedor acessando também a plataforma.
+
+3:19 - pedro mandella
+Não é isso? Mas aí a gente ficou de olhar também antes a questão do cadastro das corretoras que é feita lá no controle de acesso. O eric falou que ficou pendente isso.
+
+3:33 - Thiago Ramos
+A gente tem um cadastro de corretoras hoje no sistema. Né? Tem o cadastro lá. Isso. Na questão de acesso, sim, a gente vai tratando durante as fases, mas eu digo que agora a gente tem um papel que vai usar bem mais que é o vendedor, né?
+
+3:51 - pedro mandella
+Sim. Por onde que vocês querem começar? É o vendedor passando a venda?
+
+3:56 - Thiago Ramos
+Bom, Roberto, eu acho que é pequim do que a gente tem. A gente tem hoje os módulos de cadastro e Digamos o seguinte, ok, com essas informações que a gente tem, qual que seria o próximo palco? O que a gente consegue construir com elas, que já começa a dar alguma visibilidade aí para vocês, para, olha, agora com tudo isso aqui na mão, eu poderia cadastrar, não sei, gerar uma proposta, entender os próximos passos de caso de uso, que a gente parece que a gente agora vai aproveitar esses dados para fazer mais coisa, não é?
+
+4:32 - eric gomes
+Qual que é o requisito? Por exemplo, pedro, igual o Thiago, eu acho que tem que falar o seguinte, o foco agora é fazer a venda final. Quem faz a venda final é o vendedor, o beneficiário final. A gente já tem todos os dados que o vendedor precisa para iniciar o processo da venda para o beneficiário.
+
+4:53 - pedro mandella
+Então, mas aí é isso que eu quero saber. Eu passando para vocês essa etapa, aí o Thiago para desenvolver essa tela onde é passada a venda?
+
+5:03 - Thiago Ramos
+Se for o mais importante para a gente ver na fase 2, sim. É uma questão de fluxo mesmo, sabe, pedro? O que a gente está tentando entender agora é isso.
+
+5:14 - pedro mandella
+O que o Fábio não está presente, que é agora que ele está resumindo outras coisas, mas o que ele me passou seria isso, que nessa etapa é para eu mostrar para vocês como é que é a venda, como é que ela é realizada, Feita pelo vendedor, porque assim, o papel do vendedor dentro do sistema é bem curto. Ele faz a venda, ele loga, faz a venda. Depois que ele faz a venda, o que ele vai ter como um papel dentro do sistema é só o de verificar os status daquela venda pra ver em qual setor que ela tá, como é que tá sendo tratada a venda, se a venda foi cancelada ou não, se ela tá em análise, se ela tá Então, assim, é ele visualizar os status e uma coisa que ele pode fazer é sanar a pendência caso seja dada uma pendência. Chega lá no back office, o back office fala assim, ah, o comprovante de endereço que você enviou do seu beneficiário, ele é muito antigo, ele não está correspondendo, é inválido. Eu peço que você envie novamente o documento. Aí ele tem dentro do sistema lá uma parte de anexo que ele pode anexar o documento novamente para sanar essa pendência. Ou seja, ele recebe uma mensagem falando sobre a pendência quando ele clica na plataforma lá. Aliás, mesmo sem verificar, vamos supor num cenário assim, ele está ocupado fazendo outras coisas, então ele não logou e ainda viu que tem uma pendência lá. Ele tem que receber uma mensagem, seja via WhatsApp, seja SMS ou no e-mail, acho que o e-mail seria o mais ideal, né? Ele recebe via e-mail uma mensagem dizendo pra ele, existe uma pendência na proposta tal do beneficiário fulano de tal, favor verificar junto ao sistema e tudo. Então aí ele vai logar lá no sistema e ele vai ver lá, ele vai ter um campo lá onde fala com ele, ó, você tá com uma pendência em tal tal documento, favor sanar a pendência, aí é onde ele pode anexar...
+
+7:20 - eric gomes
+Oi? Beleza, essa notificação comunicação pro vendedor, aonde que a gente consegue pegar essa pendência aí? Então, pera aí, vamos só voltar um pouquinho, que eu lembro dessa questão da pendência.
+
+7:33 - Thiago Ramos
+Mas vamos pensar o seguinte aqui, então, se eu tô entendendo, pra gente fazer um fluxo aqui que comece a dar sentido, nisso eu tô certo. A gente deveria então começar com o vendedor fazendo a Porque com essa venda, pelo que a gente entende, e que você já até me explicou várias vezes, eu entendo que tem esse fluxo de back office todo. Eu vou te dar o que você comentou, o outro passo depois da venda, ele é acompanhar.
+
+8:07 - pedro mandella
+Exatamente, porque o que acontece, essa questão que eu estou colocando de sanar a pendência, é uma questão de tratamento pós-venda, a gente vai chegar lá ainda? Eu só toquei nesse assunto porque a gente está falando dos papéis do vendedor, mas a gente vai começar a estruturar primeiro a venda do sistema e aí quando a gente chegar no desenvolvimento do pós-venda que é o back-office, aí a gente trata essa questão do vendedor ter o papel de sanar a pendência, porque senão a gente está falando de sanar uma pendência que é realizada quando o back-office tendência, a gente nem chegou lá ainda. Claro, exato. Então vamos começar com isso. Vamos começar por essa parte de vender.
+
+8:54 - pedro mandella
+Tá, vamos lá.
+
+8:56 - eric gomes
+Beleza, pedro, vamos lá.
+
+8:57 - eric gomes
+Eu posso compartilhar a minha tela?
+
+9:00 - Palestrante Não Identificado
+Claro, claro. Vou parar aqui.
+
+9:02 - eric gomes
+Aí, viu como é que é bom isso aí, pedro? A gente vai debatendo e encontramos o início aí da jornada, cara.
+
+9:11 - pedro mandella
+Sim. Bom, beleza. Tão enxergando aí? O menu. Então, galera, é o seguinte. Essa tela é a tela inicial, né? É onde tem aí E aí eu já mostrei para vocês outras vezes aonde a gente tem as opções do que pode ser feito dentro desse sistema. Essa tela direita, como eu disse, ela não vai precisar existir no sistema novo. Isso aqui é onde o próprio beneficiário fazia a venda antigamente. Hoje em dia a gente não trabalha com o beneficiário cliente passando a própria venda dele. Ele tem que ser passado através do corretor. Então essa aqui a gente ignora esse ícone. Esse aqui do corretor é onde é feito a venda. Então esse é exclusivamente para isso para passar uma nova.
+
+11:01 - eric gomes
+Oi eu acho que eu acho que tem alguma tela a mais aí que você está mostrando e não está exibindo que você tem que exibir mandar compartilhar ela toda sabe.
+
+11:12 - pedro mandella
+Peraí. Aí é o seguinte, essa primeira aqui é a direta que eu falei com vocês que a gente vai ignorar, onde o cliente a gente passa a própria venda dele, a gente não trabalha mais com essa opção. Essa segunda é do corretor, é onde exclusivamente loga-se para poder fazer a venda. Essa terceira é o portal, então é a parte mais do back-office, para análise, então assim, é para a gente verificar as vendas que já subiram, a gente vê os status, onde ela está, se ela está na área médica, o que tem sido feito, né? Então aqui dentro, ó, Cliquei aqui. Ele vai pedir para eu logar. Eu vou logar com o meu login de vendedor. Vendedor e corretor são sinônimos, né? Isso. Vendedor e corretor é a mesma coisa. Aí, o que vai acontecer? O pedido que eu quero fazer para vocês, que para mim é o cerne desse sistema inteiro, é a coisa mais é o seguinte, eu preciso que a passagem da venda seja uma coisa muito intuitiva. Então assim, hoje a gente trabalha com esse sistema da Plano que eu vou mostrar para vocês e vocês vão ver que ele é, ele não poderia ser mais fácil de mexer, sabe? Então isso é muito importante porque a gente tem alguns alguns vendedores, alguns corretores, que eles têm dificuldade para passar a venda. Então assim, são pessoas mais idosas, são pessoas mais velhas, muitas vezes analfabetos de informática, então eles têm uma dificuldade de mexer com o computador. Então se eu abrisse aqui um formulário de preenchimento seria um negócio bem chato de fazer. Então eu gostaria que vocês seguissem a mesma diretriz, a mesma estética que esse sistema tem, que eu vou para vocês. Então olha para você ver. Aqui a casinha indicando que é a tela inicial. Olá, obrigado por escolher a valor benefícios para comprar o seu plano de saúde. Avançar. Então ele traz as escolhas através de ícones clicáveis. Eu não preciso preencher nada. Lembrando que cada preenchimento desse aqui que eu faço eu já estou fazendo um filtro dentro do sistema e eliminando opções. Então quando eu escolho o coletivo por eu já estou eliminando da minha lista que vai aparecer os produtos empresariais que é o PME. Então aqui, por exemplo, a primeira escolha do vendedor é se o cliente quer um produto coletivo por adesão, que é através das entidades, ou se é um produto empresarial. Então eu vou colocar aqui, coletivo por adesão avançado. Aqui agora eu vou escolher o estado. Então eu vou colocar aqui o nosso é mais fácil Minas Gerais Belo Horizonte ou seja qualquer produto que não é dessa região já não aparece para mim. Isso ele já vai filtrando aqui para mim só vai aparecer o que existe para venda dentro de Belo Horizonte Minas Gerais avancei. Agora eu escolho a profissão porque a profissão porque através da profissão que eu colocar ele puxa a entidade. Então por exemplo se eu colocar advogado só vai aparecer o AB. Entendeu? Não vai aparecer para mim, por exemplo, comerciário, já aparece outra, empresário, a Naserv. Então a entidade que é, na verdade, o sindicato, o sindicato trabalhista, ele vai puxar de acordo com a profissão da pessoa. Então, por exemplo, aqui eu já tenho algumas, porque são as que a gente trabalha no caso, né? Vou colocar aqui, por exemplo, estudante. Estudante, eu tenho duas opções, Abraeste e Abraune. São dois sindicatos estudantis. Aí coloquei aqui, Abraeste. Pronto. Aí, aqui, agora eu vou escolher se o produto que eu quero é de grupo de municípios, nacional ou estadual. O que é isso aqui? Abrangência. Então, é se aquele plano de saúde ele atende de forma estadual, ou seja, dentro do estado inteiro de Minas Gerais, se ele é nacional, se ele pode ser atendido em qualquer lugar do Brasil, ou se ele é grupo de municípios, ou seja, dentro de Minas Gerais pode ser Belo Horizonte, Betim, Contagem, Vespasiano, mas o restante não. Ou seja, é só um grupo de municípios. Não envolve tudo dentro daquele estado, entendeu?
+
+16:19 - eric gomes
+Porque eu lá posso, lá no Cadáver de Plano, A gente tem até as cidades, o cadastro que praticamente se filtra aí de abrangência.
+
+16:27 - pedro mandella
+É, mas aí tem lá dentro do cadastro de planos e produto de vocês também essa parte aí, se ele é nacional, estadual, grupo de benefícios. Já tem, exatamente.
+
+16:38 - eric gomes
+O que me preocupou é que eu não achei o cadastro de profissão associada. Vamos deixar as perguntas pra frente.
+
+16:45 - pedro mandella
+Chega, pedro. Tá. Então aqui, ó.
+
+16:47 - pedro mandella
+Vai anotando aí, gente, se vocês tiverem alguma dúvida. Aí aqui eu posso filtrar ou eu posso marcar tudo para eu ver o que é que aparece. Vou deixar tudo aqui então, avançar. Agora se o produto é coparticipativo ou não. Com ou sem coparte, né? Vou marcar os dois. Ambulatorial, ambulatorial hospitalar com obstetrícia, ambulatorial sem obstetrícia e odontológico. Aí lembra, Thiago, que eu falei com você que só existia essas quatro e não tem outra? A gente já deixou pré-feito lá porque não tem Então vou colocar aqui, eu quero ambulatorial hospitalar com obstetrícia e ele já elimina o resto. Se é enfermaria ou apartamento, vou marcar os dois. Aí vocês estão vendo que sempre ele trabalha com os ícones, tá vendo que... É sempre de marcar e com os desenhinhos para tornar fácil. A idade, eu vou colocar aqui que o beneficiário tem 34 anos. Se ele tiver um eu já coloco aqui, eu clico nesse mais e marco o dependente dele, é o filho dele, ele tem 12 anos e ele tem mais um filho de 14, então através daqui eu posso preencher quantas pessoas são. Eu vou pôr uma só, porque senão vai muita coisa para a gente preencher. Então vamos pôr, é só um titular de 34 anos, avançar, ele vai trazer para mim os planos disponíveis. Então ele já fez todos os aqueles filtros, e ele trouxe para mim os planos que existem baseados nas coisas que eu preenchi. E aqui vai trazer operadoras diversas, planos diversos, né? Então, por exemplo, eu vou pegar esse aqui, ó, Aurora, que é da operadora Aurora, aqui ó, segmentação ambulatorial hospitalar com obstetrícia, ele é enfermaria, a abrangência dele é grupo de municípios, ele é um plano coparticipativo, E eu tenho um beneficiário aqui embaixo aparece a ANS e aqui para contratar. Aqui para contratar. Aí vocês podem ver que aqui do lado eu já tenho a Aurora 300 que é um outro que também é enfermaria. Então através daqui eu vou escolher o plano que o vendedor vai mostrar para o cliente. Uma coisa que é muito interessante é que esses valores que vocês estão vendo já é o o valor na faixa, já é o valor para o cliente de 34 anos que eu preenchi lá. Então, quando eu coloquei a idade dele, ele já traz para mim os valores dos planos para a idade dele. Perfeito. Isso é um filtro. É um filtro.
+
+19:26 - Thiago Ramos
+É um filtrado para trazer exatamente os produtos que atendem aquelas informações. Exatamente.
+
+19:30 - pedro mandella
+Então, eu vou pegar esse primeiro aqui para vocês verem.
+
+19:34 - pedro mandella
+Vamos supor, o cliente escolheu esse aqui. Claro que o vendedor vai dar para ele lá as opções, Normalmente quando ele tá passando a venda, o cliente já fez essa escolha do plano que ele quer. Aí vamos pôr, olha fulano, eu tenho aqui esses planos disponíveis para você e tudo. Aí eu escolho esse primeiro aqui ó, o A200 incentivado enfermaria. Contratar. Agora vem a página onde eu vou preencher os dados do cliente. Então vou colocar aqui ó, masculino. Vou pôr meu CPF, já tá até aqui ó, 088 tá. Ele puxa ó. Perfeito. Então pegou meu nome, vou por meu e-mail, aqui eu tenho que trocar porque não pode ser o mesmo que eu loguei no sistema, vou por um oito aqui, aliás, eu vou por um real, esse aqui é 27 ou 17, acho que é 17, deixa eu ver, 17. Date de nascimento certinho, nome da mãe, telefone residencial não é obrigatório, aí vocês podem verificar que os itens obrigatórios estão com asterisco, né. Ok. Celular, vou pôr qualquer número aqui. Não, esse aqui eu vou pôr o meu se a gente precisar de receber os dados, eu recebo. Estado Civil, Cadastro Nacional de Saúde, ele é um campo obrigatório, sempre tem que ter.
+
+21:04 - Thiago Ramos
+E essa informação, vem também puxada como CPF?
+
+21:08 - pedro mandella
+Não, essa aqui, ele tá aqui, de tanto que eu já preenchi, ele já tá aqui como opção de preenchimento.
+
+21:15 - Thiago Ramos
+A responsabilidade cabe ao beneficiário, o cliente ou o corretor?
+
+21:19 - pedro mandella
+O corretor, o corretor tem que buscar esse número, cadastro nacional de saúde. Não é você que tem que buscar aqui dentro do sistema, não. Ele já vem com esse número para preencher. Na hora que o corretor faz o levantamento dos dados do cliente, ele tem que falar com ele. Olha, eu preciso do seu número de cadastro nacional. Ele pesquisa lá no Google, no sistema de saúde e verifica lá. Aqui, número de declaração de nascido vivo. Não é um dado obrigatório. Aqui eu coloco órgão emissor, também não é. Tipo de está como dado obrigatório, eu vou colocar aqui. Vou colocar qualquer um, né? Cadê? Rua, rua.
+
+22:00 - Thiago Ramos
+O importante é que a gente vê que tem...
+
+22:05 - pedro mandella
+Ele puxa, eu vou pôr daqui, né? Beleza. Avenida Assis Chateaubriand, 288. Aí aqui dentro é o tipo de documento, que é os documentos do beneficiário que eu vou enviar. Tem as opções aqui, ó, documento de identificação, os que são obrigatórios, né, ficha associativa, comprovante de residência, outros, todos os documentos, documento para análise de redução de carência, comprovante de vínculo na entidade, cartão nacional de saúde, documentação comprobatória do vínculo estudantil, comprovante de vínculo com a empresa. O que que eu faço quando eu tô fazendo meus testes? Eu coloco todos os documentos e coloca um documento aleatório de teste que eu tenho aqui ó porque automaticamente ele aceita um único PDF que nesse PDF já tem todos os documentos. Perfeito. Agora se ele for colocar separado que muitas vezes é o caso aí ele tem que pôr aqui ó número de identificação ele vai lá põe um documento depois ele vem aqui de novo comprovante de residência coloca outro anexa outro documento depois ele vem então ele vai colocando um por um. Às vezes o vendedor que ele é mais informatizado, ele já tem a manha com coisa de PDF e tudo, ele já salva tudo num documento só de PDF e já manda um único documento. Perfeito. Que aí ele só rola e já tá tudo lá no, né, no documento. Eu coloco aqui, ó, todos os documentos, né, que agora vocês podem ver. Vou cadastrar. Agora eu escolho a vigência. Tá. A vigência que o cliente quer. A Plânio, ela deixa disponível sempre três há disponível atual e as duas próximas. E aí a gente passa para ela a vigência do ano inteiro e ela vai colocando sempre que uma fecha, ela acrescenta mais uma na frente. Então sempre vai ter três aqui. Então quando a 15 do 8 fechar, ela vai sumir daqui e vai aparecer embaixo a 15 do 9. Então ela vai sempre liberando três vigências. Eu escolho aqui a vigência que o cliente quer, avanço. Ele está sempre trazendo para mim uma leitura do plano, que é o nome do titular, o CPF, o título, se ele é o contratante, a idade dele e o valor do plano dele na faixa. Avançar. Boleto bancário é a nossa única forma de pagamento, então não tem outra mesmo. A gente vai deixar aqui sempre boleto bancário. Avançar. Aqui agora é o resumo da contratação. De eu finalizar, de eu notificar o cliente, eu vou verificar aqui esse resumo se as informações estão corretas. Então eu tenho a data da proposta, que é a data de hoje que está sendo feita, o CPF do contratante, do cliente, o tipo de contratação, então no caso é um plano coletivo por adesão ou empresarial, aqui no caso é um coletivo por adesão, a operadora que é da Aurora Saúde, o plano, aqui o nome do plano, registro da ANS, a acomodação, que é a enfermaria, coparticipativo, segmentação ambulatorial hospitalar com obstetrícia, abrangência, grupo de municípios, o número de beneficiário que foi 1, o valor do plano na faixa de idade dele de 34 anos, que é de R$ 222,00, a entidade que é a Abraeste e a vigência que é 15 do 8. Ou seja, aqui você traz um resumo do que eu estou tratando. Aqui eu consigo visualizar o rascunho da proposta. Então, antes de eu notificar, eu consigo abrir. Vocês podem perceber que o que vai acontecer? Todas as informações que eu coloquei, ele já preencheu dentro do PDF. Tudo que vocês estão vendo de azul está sendo preenchido com aquilo que eu digitei de informação. O que não está de azul, que vocês veem que é um PDF que está de preto, é o PDF vazio que a gente coloca dentro do sistema. Então é o PDF vazio e o que vocês estão vendo de azul é o que foi preenchido com o que eu acabei de fornecer de dados. Então aqui ó, entidade Abraeste, a vigência que eu acabei de colocar, ele marcou aqui com um x, aí ele colocou os dados ó, pedro Henrique mandella, o nome da minha mãe, o meu CPF, a minha data de nascimento, a idade, o sexo, estado civil, o endereço, aqui Se eu tivesse colocado dependente, eles viriam os dados do dependente aqui. Então aqui ó, um dependente, dois dependentes, três dependentes, ele traz o espaço para preenchimento. Aqui embaixo os dados do vendedor, aqui ó. A corretora, que pertence ao vendedor, com CNPJ. O nome do corretor, que também sou eu no caso, né. O e-mail, o telefone e ele data aqui, né. A data atual e a assinatura, que é a assinatura eletrônica do documento. Próxima página, também é um dado fixo que vai lá dentro daquele modelo de contrato.
+
+27:13 - Thiago Ramos
+Isso que a gente está vendo aí é o modelo de contrato?
+
+27:17 - pedro mandella
+Exatamente, tudo que vocês estão vendo é do modelo de contrato. Algumas páginas ele preenche, outras não. Então, por exemplo, essa daqui é uma página de preenchimento. Essa aqui é só um contrato. Então não tem nada para preencher, só vai ter assinatura eletrônica e a data. Então aqui, o resumo das características gerais é a parte contratual, então é a parte jurídica do documento, é onde informa para o beneficiário a elegibilidade, os direitos que ele tem de contratação, no caso de cancelamento quais são as providências a serem tomadas, então aqui explica a cobertura, prazo, ajuste dos preços, é um contrato.
+
+27:57 - Thiago Ramos
+E o mais importante é o que a gente está você tá vendo aí o modelo de contrato que já tem na fase 1, que vai ser preenchido aí.
+
+28:07 - pedro mandella
+Exatamente, então aqui ó, ele só tá trazendo o que eu já coloquei lá, que é um documento PDF, aqui ó, no final ele assinou. O único preenchimento desse documento é a assinatura, é a data que ele põe a assinatura, o resto é fixo. Só uma dúvida, você aí tá fazendo um preview, não é isso? Isso, aqui ó, olha aqui o rascunho escrito no documento. Aonde? Desculpa. Aqui ó, no meio do documento rascunho, na marca d'água. Ah, desculpa, arrasou a minha cara. Tá, mas é a estrutura que tá aí, o assinato do documento. Ele é uma prévia me mostrando como que o documento vai ser exibido. Perfeito. Aqui ó, a página 3, né, não é 3, é 7 já, né, porque ele tá contando cada página, mas eu digo assim, a próxima página é o aditivo de carência. Também tá lá no nosso modelo de contrato e também tem uma parte separada pra ela que vocês colocaram ao lado, né? O aditivo de carência. Então, aqui ó, aqui vem a carência do cliente, também são dados fixos que a gente não modifica, porque cada operadora tem o seu aditivo de carência. Isso aqui não muda de plano para plano, ele muda de operadora para operadora. Então, por exemplo, a Unimed é o mesmo aditivo de carência para todos os planos. A Aurora, o mesmo aditivo de carência para todos os planos. Então, operadora para operadora. Mas os planos dentro daquela operadora vão ter a mesma carência. Então aqui ó, vou continuar descendo aqui, a carência no final ela também só vai ter a data e assinatura eletrônica, não tem nada para preencher nesse documento. O próximo é o aditivo de produto, é onde vem a tabela de preço. Aqui é o nosso pulo do gato da questão toda, porque é o seguinte, eu trago aqui hoje os planos disponíveis, O plano que o cliente escolheu, vocês podem ver que tem um X nele, o código da ANS, grupo de municípios e enfermaria. Aqui eu informo no grupo de municípios quais são os municípios onde ele tem atendimento. Como eu te disse, o plano dele é grupo de municípios, não é nacional e nem é estadual, então tem cidades específicas onde ele pode ser atendido. E aí vem discriminado aqui para ele, Belo Horizonte, Betim, Brumadinho, Caité, Contagio, ou seja, ele tem atendimento nessas regiões. Tudo bem.
+
+30:31 - Thiago Ramos
+Essa informação, pedro, que vou colocar um ponto aqui só porque você está me mostrando a tabela de preço, o modelo de contrato com os blocos, isso já é, e o bloco já vai ter essa informação, ou como a gente tem informação cadastrada, o modelo de dados vai carregar as informações dinamicamente, dessa faixa etária, preço, tudo mais, que são informações que a gente tem da fase 1, não é isso?
+
+30:59 - pedro mandella
+Exatamente, aí isso aqui é o que difere para o sistema de vocês, porque hoje o meu documento é fixo e o inferno trevoso da minha vida é isso, porque quando eu preciso mudar, eu tenho que trocar o documento no sistema e demora aquele processo que eu expliquei para vocês de sete dias. O que acontece é que esses campos venham vazios e que seja puxado lá da tabela de preço onde a gente cadastra. Então, por exemplo, esse azulzinho que vocês estão vendo que é um preenchimento, ele vai vir aqui dentro, tanto na faixa etária quanto na enfermaria quanto na porcentagem, porque ele vai trazer um valor que eu coloquei lá. Então, quando eu tiver uma alteração de valor de um plano, eu vou lá na tabela de preço, altero e automaticamente ele vai trazer aqui em tempo real para mim o valor do plano.
+
+31:55 - Thiago Ramos
+Perfeito. Então eu entendo o seguinte, pedro. A gente vai ainda voltar provavelmente no caso de uso de bloco modelo para indicar num bloco determinado. Eu vou colocar aqui um exemplo raso, mas mais ou menos o que eu imagino. Se eu tenho um bloco chamado aditivo de produto e ali informações a serem preenchidas, porque nesse momento, quando começa o final da proposta, esses valores têm de vir do sistema. Exatamente. Se a gente seguisse o fluxo anterior do legado, o que você ia fazer hoje no bloco de modelo é colocar uma planilha estática e mudasse. Ainda melhor, um pouquinho que você não precisa abrir um chamado para mudar, você vai no sistema e muda automaticamente, mas o ideal é que ali você agora tem um bloco que puxa valores do sistema.
+
+32:57 - Palestrante Não Identificado
+Exatamente.
+
+32:57 - pedro mandella
+Peraí só um minutinho, um minuto por favor. E aí, ó. Ó, ó, ó, ó. Pronto, gente, já voltei. Eu fui receber uma encomenda aqui na porta, que é da minha mãe, e se eu não busco, a mulher fica doida. Cara, então, isso é muito legal.
+
+34:19 - Thiago Ramos
+A gente vai mapear isso lá no caso de uso de modelos de contrato os blocos, tá? Perfeito. Então a gente entende que vão ter determinados blocos com ligação direta com os dados do sistema. Isso. Aí eu vou voltar lá para ver como é que a gente faz isso. Perfeito.
+
+34:39 - pedro mandella
+Aí aqui a gente tem, aqui ó, aqui trouxe o nome do plano, direitinho. Aqui a tabela de co-participação também, que a gente cadastra ela lá. Por isso que eu falei com vocês que ela traz porcentagem e traz valores, tá vendo? Ah, legal. Tem outros planos que ele informa só porcentagem tem tipo assim exames especiais aqui tá falando 40 de até 150 tem uns que falam assim 40% do valor tem outras que informa só o valor então eu preciso ter os dois dados o percentual e os dados em reais mesmo então aqui ó aqui vem a tabela de preço de outros planos caso o cliente teria escolhido A300 500, então são outros valores. Aqui ele puxa o valor que o cliente escolheu, porque vocês podem ver que aqui é o valor de todas as idades. Ok. O cliente tem 34 anos, então aqui 34 a 38 é R$ 222,51. Você pode ver que aqui embaixo puxou esse valor. Entendo.
+
+35:44 - Thiago Ramos
+Então você vê a necessidade, por exemplo, de trazer mais informação do que precisa, eu preciso de as faixas, ou já que a gente está puxando, eu apresentar só a linha da faixa que ele selecionou no plano dele?
+
+36:00 - pedro mandella
+Eu preciso que traga todas, porque o que acontece? Eu não preciso que traga, igual vocês estão vendo aqui, outros planos. Pode trazer só o que o cliente escolheu. Mas é interessante trazer todas as faixas, porque o cliente gosta de ver esse comparativo dos valores e ele gosta de entender esse percentual que existe plano para outro. Então aqui existe uma variação de uma faixa para outra. Tem cliente que ele gosta de entender por que que por que que existe uma diferenciação de valores tão grande quando ele faz aniversário. Então por exemplo aí eu tinha 33 anos e pagava 198 agora é 222. Aí você explica para ele. Olha aqui de 29 a 33 quando você faz 34 para 38 ele tem um reajuste de 12%. Perfeito. Então é interessante a gente, o vendedor, mostrar lá para o cliente, as faixas, falar com ele assim, olha, aqui você está pagando 222, mas lembrando que quando você fizer 39 anos o seu valor vai ser 251. Lembrando que isso aqui sofre reajuste anual. Sim, exato. Ele consegue ter uma visão de todo o futuro desse contrato.
+
+37:12 - Palestrante Não Identificado
+Exatamente.
+
+37:12 - pedro mandella
+Então, por exemplo, não é que isso aqui vai ser estático também, porque aqui, base de aniversário está falando que é dezembro ou seja isso aqui é segundo as regras da ANS todo ano no mês de dezembro isso aqui vai sofrer variação de acordo com a inflação com tudo mais que nós já sabemos aí que varia no país. Então vocês podem trazer para mim isso aqui todas as faixas todos os valores os percentuais e a tabela de co-participação. Os outros planos referentes não precisam pode ser só o plano que cliente contratou. Perfeito, perfeito. Aqui embaixo ele traz a faixa, o valor. Se os dependentes tivessem escolhidos, viria aqui, nesses quadrinhos do lado, o valor de cada um deles, de acordo com a idade, e aqui embaixo ele soma o valor de todo mundo. Ok. Então vamos supor que aqui tivesse mais três pessoas, ele ia somar as quatro faixas e trazer o valor total aqui. Perfeito. Aqui novamente ele está datando e assinando. Data de do primeiro boleto é a data da vigência. Então é só replicar a data que aparece lá em cima da vigência aqui embaixo, nessa data do primeiro boleto. Aqui também é um documento estático, que é apenas um informativo sobre a privação de proteção de dados, que é a LGPD. Então a gente traz para o cliente um informativo da LGPD, explicando sobre a Lei nº 13.709, de 2018, que é sobre a proteção de dados do cliente conforme a lei geral de proteção de dados. Então aqui é mais um informativo para ele mesmo no final da data e assinar. Isso aqui também está lá no bloco no modelo de contrato ele só puxou. Eu já coloquei lá. Por fim isso aqui também está lá no modelo de contrato que é um manual de orientação mesmo que é só informativo. São só informações que ninguém vai não vai ler, mas que a gente coloca. Então vocês podem ver aqui que esses documentos eles seguem um padrão, por isso que eu pedi para vocês para ser PDF para ficar mais fácil, porque eu já coloco exatamente do jeito que tá aqui, porque isso aqui é uma exigência. Esse ANS, Ministério do Brasil, isso aqui tem que ter essa etiqueta. Então no PDF é sempre mais fácil de trabalhar, porque a gente só coloca o arquivo lá e pronto. Ele já tá pronto, né?
+
+39:38 - Palestrante Não Identificado
+Faz todo sentido.
+
+39:39 - pedro mandella
+Isso aqui diretriz, eu não posso mudar. Teve uma operadora que implicou muito com a gente, que foi a Pivida, porque mudou isso aqui, ela falou que não pode, porque isso aqui tem que seguir normas legais. Então a gente só replica o documento lá. Esse documento também está lá no modelo de contrato, eu já coloquei para vocês lá, e aqui é a ficha de associação. Então é onde mostra que o cliente se filiou à entidade, ao sindicato. Nesse caso é a Brae, Xalogo deles é essa aqui, é uma ficha também PDF que ela vai estar em branco, eu vou colocar ela dentro do sistema. Lá naquela parte de cadastro da entidade, eu pedi para vocês colocarem um campo de anexo para eu colocar essa ficha. Entendi. É a ficha de associação, então ele pega os dados, os mesmos dados que eu cadastrei lá em cima, ele vai ter para cá, nome completo, data de nascimento, CPF, então ele só vai Ok. Entendeu? Com as informações. E aqui embaixo ele põe a data e põe a assinatura eletrônica. É onde o cliente se filia. É um documento que vocês estão vendo aí de filiação à entidade. Aqui é um aditivo. Não é todos os planos que tem. A gente colocou porque a Valoo está fazendo 15 anos esse ano e aí ela está dando 15% de desconto em todos os planos que ela vende dentro do estado de Minas Gerais. Então isso aqui é um aditivo no termo de ciência, por um período certo e determinado, onde o cliente tenha consciência de que ele está tendo esse desconto de 15% por um período. Depois o plano dele vai voltar para o valor normal dele. É um aditivo que a gente coloca, segundo o beneficiário pedro Henrique, ele tem uma condição especial por preço determinado, que é de 15%, porque a empresa está passando por aniversário, então ela está com essa primeira mensalidade. Com desconto. Então aqui tá falando a data que o plano, que ele vai ter o desconto e a data que vai ter fim o desconto, vai ser até o final do ano. Então é um documento também que vai ser inserido lá dentro do modelo de contrato, que eu já vou colher pronto. A única coisa que o sistema vai trazer novamente, que é algo que já tá aí, é o nome completo, CPF, que ele vai trazer de novo e aqui embaixo a assinatura eletrônica.
+
+41:58 - Palestrante Não Identificado
+Perfeito.
+
+41:59 - pedro mandella
+Sempre aquela questão, E acabou, gente, é só isso. Então, o que acontece? Aqui, o nosso documento são essas informações que 90% dessas informações já vão estar dentro do modelo de contrato, que são arquivos prontos.
+
+42:12 - Thiago Ramos
+Sim, e em questão do preenchimento, eu entendo que a gente tem como fonte de dados, primordial, informações do vendedor, as informações de beneficiário, titular e menos titular de beneficiário, e as informações que a gente vai encontrar já no sistema de a tela de preço e a operadora.
+
+42:31 - pedro mandella
+Exatamente, aí eu vou mostrar para vocês agora como é que isso funciona na prática. Então aqui foi uma prévia do documento, né? Então eu vou fechar, eu vi que as informações estão corretas, eu vou notificar o cliente. Isso é o vendedor fazendo, né? O cliente foi notificado via e-mail. Como eu coloquei o meu, eu vou mostrar para vocês agora como se eu como que o cliente recebe isso, que ele recebe um token para ele acessar. Deseja iniciar uma nova proposta, se eu colocar sim é para ele passar uma nova venda, se o vendedor colocar que não, ele só finaliza mesmo. Aí ele dá a opção aqui se eu quero finalizar, se eu quero fazer uma nova venda e tudo. Aqui, no meu e-mail. Aqui, proposta online. É essa aqui. Aí, notificação. O cliente recebe assim. Olá, pedro Henrique. Obrigado por ter escolhido a valor benefícios. O seu corretor. Pedro Henrique tá aparecendo aqui porque eu sou o vendedor e o cliente ao mesmo tempo.
+
+43:52 - Thiago Ramos
+O que nós vamos ter é um template de comunicação, né? E aí, novamente, a gente preenche com os dados que a gente tem no sistema.
+
+44:00 - pedro mandella
+Aqui vai estar trazendo o nome do vendedor, tá? Seu corretor, vamos supor, Paulo José. Aqui tá aparecendo pedro Henrique porque eu tenho o cadastro de vendedor e eu tenho o de cliente pra poder fazer teste. Mas aqui vai vir o nome do vendedor, fez o seu cadastro, iniciou uma que você pode agora dar continuidade. Então ele vai clicar aqui nesse link, ó, minha proposta, usando o CPF, que é o usuário, e a senha é esse token aqui que ele vai copiar e pular. Então eu vou copiar aqui o token, vou clicar aqui no link, ele vai abrir pra mim a página do cliente, aqui em cima eu vou pôr o CPF, Aqui embaixo eu vou pôr o token, vou colar aqui, olha lá, o token que eu peguei lá no sistema e vou entrar. O que ele vai mostrar para o cliente? Ele vai mostrar para o cliente aqui, obrigado pela contratação, então isso aqui é uma... Um template pronto, que mostra para o cliente, caso não concorde com os termos, aquela coisa toda, aceita, o que ele vai avançar. A próxima página é para ver se ele concorda. Aqui ó, vai vir o plano, o valor do plano, a operadora que o vendedor passou para ele, que é a enfermaria, então ele vai conferir. Belo Horizonte, aqui ó, pedro Henrique, o nome dele, o CPF, então verificando se as informações estão Eu concordo, avançar. Aqui ele traz a carta de orientação ao beneficiário. Também um template pronto. Isso aqui vai ser sempre a mesma coisa. Nunca vai mudar. A gente vai criar esse template para o cliente uma única vez e para todos os clientes vai ser a mesma coisa que vai ser enviado. Então aqui, a declaração de saúde. São informativos, né? Sobre o plano. Li e estou ciente. Aqui ele já está concordando. Aqui... Declaração de saúde. Então, na hora que ele preencher aqui, vai preencher lá na proposta. Lembrando uma coisa, lá na proposta que eu mostrei para vocês, não apareceu a declaração de saúde, porque foi pedido aqui dentro da empresa, que essa declaração de saúde não fosse mostrada para o vendedor. Por isso que naquela tela de preview, vocês não viram a declaração de saúde. Por quê? Porque o vendedor, muitas vezes agindo de maldade, de má fé, ele lia as perguntas e ele influenciava o cliente a responder assim, ó, na pergunta tal, não fala que você tem tal coisa não, senão você não vai passar. Não fala que você é gigantesca, de gorda, imensa, baleia não, senão eles vão barrar lá, não vão deixar você entrar no plano. Entendeu? Então, para não influenciar o... A gente não permitir que o vendedor influencie o cliente, o back-office pediu para o vendedor não ver. Então não aparece a página de declaração. Então o cliente vai estar vendo aqui na hora que ele for preencher. Então eu vou pôr aqui ó dispensar a presença de um médico porque eu não preciso de um médico para preencher. Aqui eu vou pôr o meu peso 82 quilos e vou pôr minha altura um metro e oitenta e um. Ok. Agora eu vou começar a preencher isso aqui que a gente pediu para vocês. Lembra que essas perguntas tem que bater com a pergunta que está lá na declaração de saúde. As mesmas. Porque aqui é o preenchimento do cliente. Então aqui, ele vai me perguntar, tem o meu nome e tem as perguntas. Está ou já esteve internado em UTI ou CTI? Não, eu vou pôr tudo não, vou pôr um assim para vocês verem.
+
+47:43 - Thiago Ramos
+O importante aqui é a gente destacar que essas informações também estão cadastradas no sistema.
+
+47:49 - Palestrante Não Identificado
+Exatamente.
+
+47:49 - Thiago Ramos
+É o formato de formulário e associá-las ao beneficiário titular que acabou de contratar o plano.
+
+47:56 - pedro mandella
+É por isso que lá naquele campo de declaração de saúde, eu coloco o anexo da ficha da declaração e tenho espaço para eu colocar as perguntas. Aquelas perguntas que eu coloco, elas vêm pra cá nesse momento. Ok. Que é a hora do cliente preencher. Então eu vou por aqui. Não, não, não tenho nada, nada. Eu vou preencher uma, eu vou colocar sim, porque quando o cliente coloca sim e ele justifica o que ele tem, aí é gerada CPT. Tá. Entendeu? Então, aqui ó, se ele não tiver nada, então não tem CPT. É porque ele é uma pessoa de boa saúde, não vai ter nada.
+
+48:35 - pedro mandella
+Qual o termo CPT?
+
+48:37 - pedro mandella
+Significa? Que se o cliente tiver alguma coisa, aí a área médica vai aplicar CPT.
+
+48:44 - Thiago Ramos
+Qual que é o significado Ah tá, peraí que eu até esqueci também.
+
+48:52 - Palestrante Não Identificado
+Cobertura parcial temporária.
+
+48:53 - Palestrante Não Identificado
+Exatamente, cobertura parcial temporária.
+
+48:55 - Palestrante Não Identificado
+E o que é esse documento?
+
+48:58 - pedro mandella
+Permite que ele adquira o plano de saúde, mas para uma determinada coisa ele não vai poder. Então vamos supor que eu coloque aqui que eu fui obeso no ano de dois mil e dezesseis. Em 2007 eu tive 135 quilos. Vou colocar isso, aliás, quer ver um outro exemplo que é melhor? Aqui ó, não. Bom kit. Tá, vou pôr aqui sim, vou pôr asma. Por quê? Na hora que a área médica aqui, o cliente falando que ele já, ele possui nessa, aqui ó, possui doenças do aparelho respiratório, alergia respiratória, asma, bronquite, pneumonia de repetição, tuberculose ou pulmonar e etc. Eu pus que sim e eu pus que no ano de 2017 eu tive asma. Ok. Tenho asma.
+
+50:03 - pedro mandella
+O que que acontece?
+
+50:05 - pedro mandella
+A área médica vai aplicar a CPT e aí lá na CPT que é a cobertura parcial temporária, ele vai para informar que eu tenho asma, ou seja, eu vou poder aderir ao plano de saúde, mas o plano de saúde não vai permitir que eu faça uma cirurgia ou trate de alguma coisa relacionada a essa pré-existência que eu tenho. Lembrando que esse documento de parcial temporário, que é CPT, ele é válido pela lei com um período máximo de 24 meses, que é dois anos, ou seja, durante dois anos eu não vou poder tratar dessa doença específica dentro do plano de saúde. Por que que isso existe? Uma proteção para a operadora. Porque se não todo mundo mentia, entrava no operador e faria uma cirurgia que custa 50 mil reais. Então quando eu entendo que o cliente tem uma predisposição para uma doença ou que ele já possui essa característica ou essa doença, eu deixo ele entrar no plano. Durante dois anos ele não fazer atendimento para essa determinada área ou fazer uma cirurgia para essa determinada situação, depois de dois anos ele pode, porque aí ele já pagou dois anos de plano de saúde, ele já tá ali dentro, né? Então assim, o plano ele não vai sofrer um prejuízo se ele puder oferecer e falar assim, olha fulano, você já tem dois anos com a gente, agora você já pode operar aí do pulmão.
+
+51:37 - Palestrante Não Identificado
+Perfeito.
+
+51:37 - pedro mandella
+problema que você tem, entendeu? Então essa questão do documento de CPT é um resguardo para a operadora financeiramente, para que ela não entre em falência, porque senão todo mundo entraria e sairia já de cara fazendo cirurgias caríssimas, tratamentos caríssimos, a operadora não ia conseguir manter, porque muitas vezes o tratamento não chega nem perto do valor que ele paga de mensalidade. Então no restante, eu vou colocar que não, Lembrando que essas perguntas todas correspondem exatamente iguais, Ilaú, na declaração de saúde. E deve ser atentado também que na questão dele selecionar sim, ainda tem que dar opção lá no cadastro, né, do nosso sistema.
+
+52:23 - Thiago Ramos
+Isso. Qual os campos ele tem que preencher em caso positivo. Exatamente. Perfeito, ok.
+
+52:30 - pedro mandella
+Então aqui ó, aí eu preenchi todos aqui, tá certinho. Aqui embaixo agora, avançar, boleto bancário, está informando para o cliente novamente, aquela mesma tela do vendedor, vocês podem reparar. Então aqui, não tem outro, vai ser sempre boleto bancário, avançar, aqui novamente ele está fazendo um resumo da contratação, a mesma coisa que informou para o vendedor, está informando para o cliente, ele concorda que a data da proposta, seu CPF, conferir se os documentos estão certos, o plano, o valor do plano, a entidade. Aqui ele pode visualizar. Na hora que ele visualizar o rascunho da proposta, ele vai ver a mesma coisa que vocês viram. Aqui, ó, o documento. Só que dessa vez ele vê a declaração de saúde. Deixa eu ver aqui, quer ver? Aqui também eu acho que não. Não, não aparece não. É só para o back-office mesmo que aparece a declaração de saúde. Então aqui é a mesma coisa que vocês viram lá, que eu mostrei para vocês. Vocês podem ver que a declaração de saúde não aparece aqui porque ela foi barrada mesmo, para não ter essa questão do vendedor. Porque o que acontece? Muitas vezes, quando o cliente está passando essa etapa aqui, o corretor está do lado dele. Às vezes ele está vendendo para o cara que é idoso. O cara não sabe mexer nisso aqui. Aí o vendedor me dá aqui o telefone, eu faço para você, você fica aqui do meu lado, eu vou passando junto com você. Aí o que ele faz? Ele está querendo que a venda entre, ele chega lá na declaração de saúde ele marca tudo não, para o cara entrar, entendeu? Só que o que acontece, ele marca lá tudo que não, só que a área médica vai ligar para o cliente depois, para fazer a entrevista médica, e aí conversando com ele, descobre que ele tem uma porrada de coisa, que ele mentiu na declaração. Por isso que a gente não exibe a declaração mais para o vendedor, para ele não ser influenciado a ajudar o cliente a mentir. Então aqui, eu já vi aqui, tudo certas informações, eu vou finalizar a proposta.
+
+54:31 - Palestrante Não Identificado
+Pronto.
+
+54:32 - Palestrante Não Identificado
+Proposta recebida com sucesso.
+
+54:34 - pedro mandella
+Agora, o que aconteceu com essa proposta? Para onde ela vai? Para o back-office. É onde começa toda a tratativa da proposta. Aí o back-office recebe essa proposta e vai verificar se os documentos estão corretos.
+
+54:53 - Thiago Ramos
+Vamos fechar aqui. Aqui, pedro. Vamos passar agora, então, pelos questionamentos. Eric, você tem alguma coisa que você quer perguntar aí, durante a apresentação?
+
+55:05 - eric gomes
+Tenho. Primeiro o seguinte, lá no início, que você associa a profissão, pedro, né? Pega lá a entidade e já traz as profissões. Aí, eu estava analisando aqui, a gente não tem um cadastro de profissão Isso, a gente vai precisar.
+
+55:27 - pedro mandella
+Adesão, Minas Gerais, Belo Horizonte. Aqui, profissão. A profissão, ela vai ser associada com as entidades, tá? Então, se vocês quiserem criar lá dentro da entidade, o campo de cadastro da entidade, a gente pode, dentro... Quer ver? Deixa eu abrir seu sistema aqui para a gente ver.
+
+55:58 - eric gomes
+Tá, isso aí é um cadastro de produção.
+
+56:01 - pedro mandella
+A gente poderia fazer ele o mais simples possível, com o nome da profissão. Aqui, ó.
+
+56:06 - Thiago Ramos
+É no planos e produtos. É o Acreditidades.
+
+56:09 - Thiago Ramos
+O mais correto seja buscar, então, uma lista oficial de entidades. Deve ter alguma autorregulatória onde elas se registram.
+
+56:15 - pedro mandella
+Tá, eu passo para vocês todas que a gente trabalha.
+
+56:19 - Thiago Ramos
+A entidade a gente sabe as profissões, a entidade ela tem o registro. A gente tem um cadastro de entidade aqui.
+
+56:31 - pedro mandella
+É dentro de operadora, não é?
+
+56:34 - Thiago Ramos
+Não, não, é a entidade.
+
+56:37 - pedro mandella
+Aqui dentro de entidades a gente pode colocar a ficha associativa, que é a ficha que vocês a gente pode colocar uma aba aqui, ou aqui dentro mesmo uma... Como é que chama isso aqui, gente? Voz de identidade operadora? Não, como é que chama isso aqui na linguagem de programação, essa caixinha?
+
+56:59 - eric gomes
+Aí é o input de texto.
+
+57:01 - eric gomes
+É, você quer montar tipo lá, o tipo pessoa, um combo, né?
+
+57:05 - Thiago Ramos
+É o drop-down que chama isso aqui? Ah, o drop-down de cima, lá no tipo pessoa. Você clica e vê vários. Ah, tá.
+
+57:13 - pedro mandella
+Então, não, o que eu queria falar A gente pode criar um campinho desse ou uma aba aqui em cima com um lugar para a gente cadastrar as profissões que vão entrar dentro dessa entidade.
+
+57:24 - Palestrante Não Identificado
+Ok, perfeito.
+
+57:25 - pedro mandella
+Na verdade vai ser uma só, né? Então pode ser uma ou duas no máximo. Sim.
+
+57:29 - Thiago Ramos
+Ao você informar o CPF, no caso de uso atual que a gente tem a entidade, vai buscar as informações dessa entidade.
+
+57:36 - pedro mandella
+Peraí gente, só um minuto que o Fábio fez uma observação aqui. A entidade se vincula à profissão. Você pode ter uma profissão que vai em mais de uma entidade.
+
+57:48 - pedro mandella
+É verdade.
+
+57:49 - pedro mandella
+O Fábio está falando o seguinte, essa profissão a gente tem que cadastrar ela no menu externo aqui fora e aqui dentro de entidade a gente só anexar a essa profissão que foi. Por quê? Existem profissões que têm mais uma entidade. Então, por exemplo, eu tenho a profissão, que não é profissão, mas ela entra como profissão estudante. Estudante, ela pode ter três entidades diferentes. Então, o que eu vou fazer? Aqui dentro, eu vou clicar nesse ícone que aparece aqui, as opções. Na hora que tiver aqui em cima, assim, entidade, eu vou clicar aqui, vai ter três entidades disponíveis para eu clicar. Três entidades, não. Três profissões diferentes para eu clicar e escolher. Por quê? Eu tenho a entidade Anacerv, eu tenho a entidade Abraeste, que é estudante, eu tenho a Abrauni, que é estudante, eu tenho a FESN, que é estudante.
+
+58:51 - Thiago Ramos
+Perfeito. Então fica entendido que uma entidade pode ter mais, pode ser, possa associar mais de uma profissão àquela entidade. Perfeito.
+
+58:59 - pedro mandella
+Vamos lá.
+
+59:00 - Palestrante Não Identificado
+Próximo.
+
+59:00 - pedro mandella
+Aqui, o Fábio está falando aqui que é o seguinte, pode ser tanto a uma coisa quanto a outra. A gente pode tanto dentro da entidade a gente vincular a profissão quanto dentro da profissão eu posso vincular a entidade. Aí é o que vocês acharem mais interessante. Só que aqui do lado de fora junto com esses ícones aqui tem que ter um profissões. Tudo bem. Basicamente uma tela simples. Profissões onde eu vou cadastrar as profissões e pronto. Se vocês quiserem fazer dentro dessa tela mesmo uma chave para a gente anexar, não é anexar, né? Vincular. Para a gente vincular a entidade dentro dessa profissão, já faz lá mesmo.
+
+59:50 - Thiago Ramos
+Tudo bem.
+
+59:51 - Thiago Ramos
+A gente vai mostrando.
+
+59:53 - eric gomes
+Quer mais, Rérick?
+
+59:55 - eric gomes
+Uma coisa simples aqui, eu vi também que em alguns lugares, para cada plano que for exibir lá na pré-proposta, ele é gerado um código de ANS específico. Isso. Eu vi que você tem um link. Aquilo ali não precisa não.
+
+1:00:13 - pedro mandella
+Aquilo ali foi porque o sistema da Plano colocou que na hora que eu esbarro no link ele abre lá no site da ANS. Isso aí é inútil, não precisa não. Não precisa. Eu só preciso informar o número aqui. Mas o número ele tem que trazer. Eu acho que você pode ver que tudo aqui nessa página não é clicável, olha aqui ó. Isso. Não é, só que aqui é. Na hora que eu clico em cima desse ANS aqui, ele abre o... Eu cliquei sem querer, você viu, né? Aquela hora que eu estava passando aqui pra vocês. Isso, eu vi que você fez fechado, então não tem necessidade disso. Não, ele abre aqui o site da ANS, mas isso é inútil, a gente não usa isso não. Eu não sei porque que isso aqui veio como um link. Pode vir como um número comum.
+
+1:00:55 - eric gomes
+Esse código gerado aí, a gente considera esse código já tá lá no cadastro de planos e produtos eu coloco ele lá no código a ns você coloca lá coloca ele lá ele é um dos dados tá só mais uma pergunta fechada eu sei que você falou né aqui ó a forma de pagamento planos e produtos aqui ó registro ns tá beleza você falou Às vezes a forma de pagamento é só ver o boleto bancário. Só o boleto bancário.
+
+1:01:28 - pedro mandella
+É para manter só ele mesmo? Só ele. Só ele. Não, porque a gente não trabalha com outro. Não trabalha com outro. Ah, é. O governo de Pernambuco, no caso, ele trabalha com o consignado, direto na folha de pagamento. Aí, no caso dele, a gente... Quando é, a gente coloca lá, que é direto na folha. Mas aí, quando for assim... Então vocês podem deixar... Hoje é duas. A gente não vai trabalhar futuramente com outras, né, Fábio? Pode deixar só as duas.
+
+1:02:00 - eric gomes
+Então, é só as duas mesmo.
+
+1:02:03 - eric gomes
+Fórmula de pagamento, só consignada e boleto bancário.
+
+1:02:07 - Palestrante Não Identificado
+Tá bom. Beleza.
+
+1:02:08 - Thiago Ramos
+Aí, pedro, nós vamos fazer o seguinte agora.
+
+1:02:12 - Thiago Ramos
+Levantamos as luzes. Eu tirei print de tudo. Tá aqui, Fábio.
+
+1:02:17 - pedro mandella
+É só duas.
+
+1:02:18 - pedro mandella
+Eu anotei.
+
+1:02:27 - pedro mandella
+no coletor, na hora que ele recebe a proposta dele, no final da proposta vem lá marcada. Hoje a planta só mostra que é boleiro. Aí o que o cara fala? O cara fala assim, eu não recebi meu boleiro.
+
+1:02:40 - pedro mandella
+Ah, entendi. O que eu estava falando aqui é que é o seguinte, hoje a gente não tem isso lá na proposta, mas é importante que a gente tenha a forma de pagamento. Então o que acontece? Muitas vezes o cliente, ele contrata lá no de Pernambuco através da folha consignada. Aí vem descontando direto na folha de pagamento dele. Depois, lá na Plânio, como só imprime a forma de boleto, depois ele fica cobrando do corretor, assim, cadê meu boleto? Não chegou e tudo. Ele não... O seu é consignado, vem o desconto direto em folha e tudo. Então, é insistente na proposta vir escrito se o cliente contratou a forma de pagamento via boleto ou via consignado. Tudo bem. Então o cadastro... Mesmo que via com signal, vai ser para um único lugar, porque a única operadora que trabalha com esse direto na Folha, lá no Governo, mas ainda assim é uma informação que a gente tem que informar para o cliente, a forma de que ele contratou de pagamento.
+
+1:03:39 - Thiago Ramos
+Perfeito. A gente cria um caso de uso simples, onde você tem um cadastro ali das formas de pagamento, para deixar isso claro na seleção e na apresentação das informações. Beleza. Bom, as minhas dúvidas o eric puxou aqui, eu fiz umas anotações, pedro, a gente vai fazer o seguinte, nós vamos pegar isso aqui, mastigar, entender se ficou dúvida e vamos te passar de novo. Eu tirei print dela, você escutou tudo, eu vou colocar os prints depois no e-mail.
+
+1:04:07 - pedro mandella
+Não, gente, mas aqui, na hora que eu for documentar para vocês, eu vou mandar print de passo a passo de tudo. Tá. Eu vou fazer, tudo que vocês viram aqui é para vocês terem geral de como que o sistema funciona mas eu vou mandar o print como se fosse um manual de tela por tela para vocês poderem ver com comentários e tudo se vocês tiverem dúvidas depois e claro vou preencher aquelas informações que o eric pediu lá que nessa proposta da venda e tudo mas eu acho que vocês tendo esse material dessa forma é como se fosse um manual passo para vocês verem, vai ser melhor para estruturar. E aí a gente vai conversando e pau na boneca, a gente vai vendo aí. No dia a dia, se tiver dificuldade, a gente entra em contato. O que é aqui mesmo?
+
+1:05:01 - Thiago Ramos
+Como é que funciona mesmo esse fluxo? Claro, é porque a gente está tentando fazer o seguinte, em cada reunião, um escopo definido. Então aqui a gente falou de ponta a ponta do vendedor até chegar para o beneficiário. A gente fecha aqui e vamos fazer isso, aí a gente vai pegando e vamos trocando os e-mails, trocando mensagem, fazer outra reunião se tiver dúvida, mas a princípio a gente tá conseguindo entender bastante coisa.
+
+1:05:28 - pedro mandella
+Beleza, aí agora vocês vão aguardar a documentação, né?
+
+1:05:31 - Thiago Ramos
+Isso, nós vamos fazer uma documentação aqui, pedro, e até te falar, com essa transcrição da reunião que a gente tá fazendo agora, nós já vamos conseguir estruturar aqui, ganhar uma documentação inicial, então eu vou você essa documentação, você dá uma olhada se foi entendido, a gente criou um template para você fazer essa documentação mais rápida, entendeu? Beleza, combinado. Colocar o anexo, se você colocar o print da tela e falar a tela é isso, você não precisa nem colocar mais nada, a IA vai ler, vai destacar os campos que são obrigatórios, porque a gente tem a questão do asterisco, mas aí a gente vai fazer isso primeiro, nós vamos montar o entendimento de passar, confirmar e aí a gente vai bolar uma forma legal de você facilitar sua vida para você conseguir colocar detalhadamente e pontual que você precisa nos casos de uso, nas tarefas.
+
+1:06:23 - pedro mandella
+Combinado, eu vou aguardar vocês então liberarem aí a plataforma e eu faço para vocês lá o levantamento de tudo que vocês precisam. Ô eric, você tem mais alguma dúvida em relação a alguma coisa ainda?
+
+1:06:36 - eric gomes
+Não, no momento é isso, porque a dúvida vai além e começa se mudar de setor, já cheguei no backups, então vamos parar. Eu acho que aqui tá entendido, né? Ficou entendido qual o nosso limite aqui. Beleza. Próximo passo é backup.
+
+1:06:50 - pedro mandella
+Mas agora tá, é isso que o Thiago falou. Aí, Thiago, na questão de desenvolvimento, é tranquila essa questão que eu mostrei pra você da passagem de venda ser de forma, trabalhar ali com as imagens, né? Selecionar.
+
+1:07:03 - Thiago Ramos
+Não, eu sou tranquilo como obrigatório.
+
+1:07:05 - pedro mandella
+É porque se a gente trabalhar assim hoje o preenchimento ia ser algo muito maçante para os vendedores. Imagina se fosse todas essas informações que a gente clica ali só de escolher o desenho e clicar fosse um trem que ele tivesse que ficar preenchido.
+
+1:07:21 - Thiago Ramos
+Assim idealmente seria ser igualzinho. É isso que eu ia te falar inclusive se quiser.
+
+1:07:27 - pedro mandella
+Por causa da plana. Se quiser plagiar eu acho um máximo.
+
+1:07:30 - Thiago Ramos
+Mas a estrutura igual você tem no canto esquerdo da tela e essa coluna com os passos.
+
+1:07:36 - pedro mandella
+Sim. E uma pra baixo. É porque aqui eu posso clicar e voltar.
+
+1:07:41 - Thiago Ramos
+Aí a gente planeja talvez até assistentes de ajuda, qualquer coisa que a gente possa precisar. Não, tá claro, legal, pessoal. Acho que aqui ficou claro. Então vamos seguir com o plano. Nós vamos mastigar isso aqui e passar, pedro. Combinado, então.
+
+1:07:57 - pedro mandella
+Beleza? Gente, obrigado. Obrigado, senhores. Valeu, pedro.
+
+1:08:00 - Palestrante Não Identificado
+Vou dar um abraço pro Fábio aí. Valeu. Tchau, tchau. Tchau, tchau.
