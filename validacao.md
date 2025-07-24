@@ -89,7 +89,6 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 - **Consignado em Folha** (apenas Governo Pernambuco)
 
 #### 3.3 Ajuste no Cadastro de Entidades
-- Campo para upload da **Ficha Associativa** (PDF)
 - Vinculação com Profissões
 
 **Validação Pedro:**
