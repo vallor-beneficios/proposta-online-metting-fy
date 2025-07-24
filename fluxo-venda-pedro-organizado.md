@@ -26,7 +26,7 @@ A tela inicial possui três opções principais:
 > **Importante:** O Portal Direto não será implementado no novo sistema, pois não se trabalha mais com beneficiários fazendo suas próprias vendas.
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.44.25.png` - Menu inicial do sistema
+![Menu inicial do sistema](capturas-telas/Screenshot%202025-07-24%20at%2009.44.25.png)
 
 ---
 
@@ -49,8 +49,9 @@ O sistema deve:
 - Cada seleção funciona como um filtro, eliminando opções incompatíveis
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.47.27.png` - Tela de boas-vindas
-- `Screenshot 2025-07-24 at 09.47.37.png` - Seleção por ícones
+![Tela de boas-vindas](capturas-telas/Screenshot%202025-07-24%20at%2009.47.27.png)
+
+![Seleção por ícones](capturas-telas/Screenshot%202025-07-24%20at%2009.47.37.png)
 
 ---
 
@@ -64,7 +65,7 @@ O sistema deve:
 > **Filtro aplicado:** Ao selecionar Coletivo por Adesão, produtos empresariais são eliminados
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.47.58.png` - Seleção do tipo de produto
+![Seleção do tipo de produto](capturas-telas/Screenshot%202025-07-24%20at%2009.47.58.png)
 
 ### 3.2 Localização
 **Seleção de:**
@@ -74,8 +75,9 @@ O sistema deve:
 > **Filtro aplicado:** Apenas produtos disponíveis na região selecionada serão exibidos
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.48.19.png` - Seleção de estado
-- `Screenshot 2025-07-24 at 09.48.32.png` - Seleção de cidade
+![Seleção de estado](capturas-telas/Screenshot%202025-07-24%20at%2009.48.19.png)
+
+![Seleção de cidade](capturas-telas/Screenshot%202025-07-24%20at%2009.48.32.png)
 
 ### 3.3 Profissão e Entidade
 **Processo:**
@@ -86,7 +88,7 @@ O sistema deve:
 > **Ponto de Atenção:** Necessário criar cadastro de profissões no sistema
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.48.40.png` - Seleção de profissão
+![Seleção de profissão](capturas-telas/Screenshot%202025-07-24%20at%2009.48.40.png)
 
 ### 3.4 Abrangência do Plano
 **Opções:**
@@ -95,7 +97,7 @@ O sistema deve:
 - Grupo de Municípios (cidades específicas dentro do estado)
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.49.36.png` - Seleção de abrangência
+![Seleção de abrangência](capturas-telas/Screenshot%202025-07-24%20at%2009.49.36.png)
 
 ### 3.5 Características do Plano
 **Seleções incluem:**
@@ -108,7 +110,7 @@ O sistema deve:
 - Acomodação (Enfermaria ou Apartamento)
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.50.03.png` - Seleção de coparticipação
+![Seleção de coparticipação](capturas-telas/Screenshot%202025-07-24%20at%2009.50.03.png)
 
 ### 3.6 Dados dos Beneficiários
 **Informações necessárias:**
@@ -118,7 +120,7 @@ O sistema deve:
 > **Funcionalidade:** Sistema permite adicionar múltiplos beneficiários através do botão "+"
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.51.12.png` - Informação de idade
+![Informação de idade](capturas-telas/Screenshot%202025-07-24%20at%2009.51.12.png)
 
 ---
 
@@ -132,8 +134,9 @@ Após aplicar todos os filtros, o sistema exibe:
 - Código ANS de cada plano
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.51.19.png` - Lista de planos disponíveis
-- `Screenshot 2025-07-24 at 09.51.25.png` - Detalhes dos planos
+![Lista de planos disponíveis](capturas-telas/Screenshot%202025-07-24%20at%2009.51.19.png)
+
+![Detalhes dos planos](capturas-telas/Screenshot%202025-07-24%20at%2009.51.25.png)
 
 ### 4.2 Informações Exibidas por Plano
 - Nome do plano
@@ -165,8 +168,9 @@ Após aplicar todos os filtros, o sistema exibe:
 - Órgão emissor
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.51.33.png` - Formulário de dados pessoais
-- `Screenshot 2025-07-24 at 09.51.39.png` - Continuação do formulário
+![Formulário de dados pessoais](capturas-telas/Screenshot%202025-07-24%20at%2009.51.33.png)
+
+![Continuação do formulário](capturas-telas/Screenshot%202025-07-24%20at%2009.51.39.png)
 
 ### 5.2 Endereço
 - CEP (puxa endereço automaticamente)
@@ -178,7 +182,7 @@ Após aplicar todos os filtros, o sistema exibe:
 - Estado
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.51.46.png` - Dados de endereço
+![Dados de endereço](capturas-telas/Screenshot%202025-07-24%20at%2009.51.46.png)
 
 ### 5.3 Documentação
 **Opções de anexo:**
@@ -194,14 +198,14 @@ Após aplicar todos os filtros, o sistema exibe:
 > **Facilidade:** Sistema aceita PDF único com todos os documentos ou anexos separados
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.52.08.png` - Upload de documentos
+![Upload de documentos](capturas-telas/Screenshot%202025-07-24%20at%2009.52.08.png)
 
 ### 5.4 Seleção de Vigência
 - Sistema sempre disponibiliza 3 vigências: atual e duas próximas
 - Quando uma vigência fecha, é automaticamente substituída pela seguinte
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.53.49.png` - Seleção de vigência
+![Seleção de vigência](capturas-telas/Screenshot%202025-07-24%20at%2009.53.49.png)
 
 ### 5.5 Forma de Pagamento
 - **Padrão:** Boleto bancário
@@ -227,7 +231,7 @@ Sistema exibe todas as informações para conferência:
 - Vigência
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.54.37.png` - Resumo da contratação
+![Resumo da contratação](capturas-telas/Screenshot%202025-07-24%20at%2009.54.37.png)
 
 ### 6.2 Visualização do Rascunho (Preview)
 **Estrutura do documento gerado:**
@@ -272,7 +276,9 @@ Sistema exibe todas as informações para conferência:
    - Período de vigência da condição
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 09.57.29.png` a `Screenshot 2025-07-24 at 10.17.07.png` - Páginas do documento
+![Páginas do documento - Início](capturas-telas/Screenshot%202025-07-24%20at%2009.57.29.png)
+
+![Páginas do documento - Final](capturas-telas/Screenshot%202025-07-24%20at%2010.17.07.png)
 
 ---
 
@@ -286,8 +292,9 @@ Sistema exibe todas as informações para conferência:
 - Token de acesso único
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 10.17.26.png` - Email de notificação
-- `Screenshot 2025-07-24 at 10.17.32.png` - Conteúdo do email
+![Email de notificação](capturas-telas/Screenshot%202025-07-24%20at%2010.17.26.png)
+
+![Conteúdo do email](capturas-telas/Screenshot%202025-07-24%20at%2010.17.32.png)
 
 ### 7.2 Acesso do Cliente
 1. Cliente clica no link recebido
@@ -296,7 +303,7 @@ Sistema exibe todas as informações para conferência:
 4. Acessa o sistema
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 10.18.18.png` - Tela de login do cliente
+![Tela de login do cliente](capturas-telas/Screenshot%202025-07-24%20at%2010.18.18.png)
 
 ### 7.3 Processo de Finalização
 
@@ -305,14 +312,14 @@ Sistema exibe todas as informações para conferência:
 - Verifica plano, valor e dados pessoais
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 10.18.27.png` - Confirmação de dados
+![Confirmação de dados](capturas-telas/Screenshot%202025-07-24%20at%2010.18.27.png)
 
 #### Carta de Orientação
 - Template fixo com orientações ao beneficiário
 - Cliente deve ler e concordar
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 10.18.49.png` - Carta de orientação
+![Carta de orientação](capturas-telas/Screenshot%202025-07-24%20at%2010.18.49.png)
 
 #### Declaração de Saúde
 **Ponto Crítico:**
@@ -330,7 +337,9 @@ Sistema exibe todas as informações para conferência:
 - Proteção financeira para a operadora
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 10.19.06.png` a `Screenshot 2025-07-24 at 10.19.55.png` - Declaração de saúde
+![Declaração de saúde - Início](capturas-telas/Screenshot%202025-07-24%20at%2010.19.06.png)
+
+![Declaração de saúde - Final](capturas-telas/Screenshot%202025-07-24%20at%2010.19.55.png)
 
 #### Finalização
 - Cliente confirma forma de pagamento
@@ -339,8 +348,9 @@ Sistema exibe todas as informações para conferência:
 - Finaliza a proposta
 
 ### Imagens de Referência:
-- `Screenshot 2025-07-24 at 10.26.31.png` - Confirmação final
-- `Screenshot 2025-07-24 at 10.26.42.png` - Proposta recebida com sucesso
+![Confirmação final](capturas-telas/Screenshot%202025-07-24%20at%2010.26.31.png)
+
+![Proposta recebida com sucesso](capturas-telas/Screenshot%202025-07-24%20at%2010.26.42.png)
 
 ---
 
@@ -422,7 +432,6 @@ Sistema exibe todas as informações para conferência:
 
 ## Anexo: Lista de Capturas de Tela
 
-Todas as capturas de tela mencionadas neste documento estão disponíveis em:
-`/Users/codar/Projects/Internos/transcricoes/proposta-online-fase-2/capturas-telas/`
+Todas as capturas de tela mencionadas neste documento estão disponíveis no diretório `capturas-telas/` do projeto.
 
 Total de imagens capturadas: 36 screenshots documentando todo o fluxo apresentado.
