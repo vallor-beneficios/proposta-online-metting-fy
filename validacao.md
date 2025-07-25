@@ -30,16 +30,17 @@ VENDEDOR → Filtros → Seleção Plano → Dados Cliente → Upload Docs → N
 CLIENTE → Email Token → Login → Confirma Dados → Declaração Saúde → Finaliza
     ↓  
 BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
+
 ```
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
 **Observações/Correções:**
 ```
-[Espaço para Pedro adicionar comentários]
+o [Espaço para Pedro adicionar comentários]
 ```
 
 ---
@@ -59,12 +60,12 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 3. Profissão → Entidade (automático)
 4. Abrangência (Nacional/Estadual/Grupo Municípios)
 5. Coparticipação (Com/Sem)
-6. Cobertura (Ambulatorial, Hospitalar, etc.)
+6. Cobertura (Ambulatorial, Ambulatorial Hospitalar com Obstetrícia, Ambulatorial Hospitalar sem Obstetrícia e Odontológico)
 7. Acomodação (Enfermaria/Apartamento)
-8. Idade dos beneficiários
+8. Idade dos beneficiários (Titular e Dependentes)
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto  
 - [ ] ⚠️ Esclarecer
 
@@ -94,13 +95,18 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 **Validação Pedro:**
 - [ ] ✅ Correto
 - [ ] ❌ Incorreto
-- [ ] ⚠️ Esclarecer
+- [X] ⚠️ Esclarecer
 
 **Observações/Correções:**
 ```
-[Espaço para Pedro adicionar comentários]
-```
+No momento da venda precisamos que seja informado a forma de pagamento escolhida pelo cliente. EX: Consignado em folha(descontado diretamente na folha de pagamento do Servidor Público do Estado de Pernambuco) e Boleto Bancário.
+Precisamos que dentro do cadastro de planos e produtos seja acrescido duas caixas de seleção: 
+Caixa 1: Boleto Bancário 
+Caixa 2: Consignado em Folha 
 
+No final da venda, onde consta um checklist para o corretor com as informações sobre o plano que foi vendido, deve informar qual a forma de pagamento daquele plano.
+
+```
 ---
 
 ## 4. Regras de Negócio Críticas
@@ -129,7 +135,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 - Rotação automática quando uma fecha
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
@@ -160,7 +166,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 - Assinatura eletrônica
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
@@ -188,7 +194,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 **Solução:** Valores dinâmicos do sistema em tempo real
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
@@ -216,7 +222,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 - Token de segurança
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
@@ -241,7 +247,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 - Iniciada → Notificada → Em Preenchimento → Finalizada → Em Análise → Com Pendência → Aprovada/Cancelada
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
@@ -269,7 +275,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 - Órgão emissor
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
@@ -295,7 +301,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
   - Comprovante de vínculo com empresa
 
 **Validação Pedro:**
-- [ ] ✅ Correto
+- [X] ✅ Correto
 - [ ] ❌ Incorreto
 - [ ] ⚠️ Esclarecer
 
@@ -318,11 +324,43 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 **Validação Pedro:**
 - [ ] ✅ Correto - vou fornecer estas informações
 - [ ] ❌ Incorreto - há outros pontos pendentes
-- [ ] ⚠️ Esclarecer - preciso ajustar algo
+- [X] ⚠️ Esclarecer - preciso ajustar algo
 
 **Observações/Correções:**
 ```
-[Espaço para Pedro adicionar comentários]
+PROFISSÕES E ENTIDADES:
+
+ADMINISTRADOR = CRA - BAHIA
+ADVOGADO = OAB GUARATINGUETÁ / OAB LORENA / OAB CACHOEIRA PAULISTA / OAB CRUZEIRO / OAB IPATINGA 
+APOSENTADO, PENSIONISTA E IDOSOS = SNAPFS / SINDNAPI
+ASSISTENTE SOCIAL = SASB
+AUTÔNOMO = ABRAVA
+COMERCIÁRIO = ANASERV / SEC
+CORRETOR DE SEGUROS = SINCOR 
+EMPRESÁRIO = ANASERV
+ESTUDANTE = AEB / ABRAEST / ABRAUNI / FESN
+FEIRANTES = SINDIFEIRANTES 
+PROFISSIONAL LIBERAL = ANASERV
+REPRESENTANTE COMERCIAL = CORE
+SERVIDOR PÚBLICO = AASP
+TAXISTA = FECOMBASE
+TRABALHADOR NO RAMO AGRÍCOLA = SINTAGRO
+TRABALHADOR NO RAMO DE SERVIÇOS = FECOMBASE
+SERVIDOR PÚBLICO DO ESTADO DO RIO DE JANEIRO = INSERV RJ
+POLICIAIS E BOMBEIROS MILITARES = ASPRA
+SERVIDORES DA FUNDAÇÃO UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO = ASSUNIVASF
+SERVIDORES PÚBLICOS MUNICIPAIS DE JUAZEIRO = SINSERP
+ASSOCIACAO BENEFICIENTE EDUCACIONAL E RECREATIVO DOS PRACAS DA POLÍCIA MILITAR E DO CORPO DE BOMBEIROS MILITAR DO ESTADO DA BAHIA = APPMBM
+UNIÃO NACIONAL DOS PROFISSIONAIS LIBERAIS = UNIPROLI
+ASSOCIACAO BRASILEIRA DOS VENDEDORES AUTONOMOS E AMBULANTES = ANAVA
+SINDICATOS TRABALHADORES INDUSTRIAIS METALURGICOS MECANICOS E MATERIAIS ELETRICOS DE ITAJUBA = CSP
+ASSOCIAÇÃO DOS PROFISSIONAIS DE BELEZA DO VALE DO SÃO FRANCISCO = ASSOCIAÇÃO DOS PROFISSIONAIS DE BELEZA DO VALE DO SÃO FRANCISCO
+
+
+
+<img width="661" height="521" alt="image" src="https://github.com/user-attachments/assets/98984157-4f3a-4fbf-9203-431c8befcea3" />
+
+
 ```
 
 ---
@@ -342,7 +380,7 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 4. Validar casos de uso de modelos de contrato
 
 **Validação Pedro:**
-- [ ] ✅ Correto - concordo com as ações
+- [X] ✅ Correto - concordo com as ações
 - [ ] ❌ Incorreto - preciso ajustar algo
 - [ ] ⚠️ Esclarecer - tenho dúvidas sobre algum ponto
 
@@ -359,28 +397,35 @@ BACK-OFFICE → Recebe Proposta → Análise Docs → Aprovação/Rejeição
 
 ### Pontos que estão CORRETOS no entendimento:
 ```
-[Liste aqui os pontos que estão bem entendidos]
+TODOS OS FLUXOS QUE EU MARQUEI CORRETO, ESTÃO DEVIDAMENTE VALIDADOS E AS INFORMAÇÕES FORAM DEVIDAMENTE ENTENDIDAS. NÃO TENHO DEMAIS OBSERVAÇÕES. 
 ```
 
 ### Pontos que precisam de CORREÇÃO:
 ```
-[Liste aqui os pontos que foram mal compreendidos e as correções necessárias]
+NÃO HÁ CORREÇÕES A SEREM REALIZADAS. 
 ```
 
 ### Pontos que precisam de mais ESCLARECIMENTO:
 ```
-[Liste aqui os pontos que precisam de mais detalhes ou explicações]
+## 3. Cadastros Necessários (Faltantes no Sistema Atual)
+No momento da venda precisamos que seja informado a forma de pagamento escolhida pelo cliente. EX: Consignado em folha(descontado diretamente na folha de pagamento do Servidor Público do Estado de Pernambuco) e Boleto Bancário.
+Precisamos que dentro do cadastro de planos e produtos seja acrescido duas caixas de seleção: 
+Caixa 1: Boleto Bancário 
+Caixa 2: Consignado em Folha 
+
+No final da venda, onde consta um checklist para o corretor com as informações sobre o plano que foi vendido, deve informar qual a forma de pagamento daquele plano.
+
 ```
 
 ### Informações ADICIONAIS que não foram mencionadas:
 ```
-[Adicione aqui qualquer informação importante que não foi capturada na reunião]
+Não se aplica. 
 ```
 
 ---
 
-**Data de Validação:** _______________  
-**Assinatura/Confirmação Pedro:** _______________
+**Data de Validação:** 25/07/2025
+**Assinatura/Confirmação Pedro:** Pedro H. Mandella
 
 ---
 
